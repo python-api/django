@@ -5,13 +5,6 @@
 
 ___
 
-## Install python and Pip (PowerShell administrator)
-
-```shell
-choco install python
-py -m pip install --upgrade pip
-```
-
 ## Install Poetry
 
 ```shell
@@ -76,8 +69,6 @@ make stop-user-development; make build-user-development; make start-user-develop
 make stop-user-production; make build-user-production; make start-user-production
 ```
 
-https://docs.docker.com/samples/flask/
-
 # [SQL Alchemy](https://www.sqlalchemy.org/)
 
 ## [SQL Alchemy Core](https://docs.sqlalchemy.org/en/20/core/index.html)
@@ -101,8 +92,9 @@ engine = create_engine("mysql+mysqldb://scott:tiger@localhost/foo")
 engine = create_engine("mysql+pymysql://scott:tiger@localhost/foo")
 ```
 
-## [Flask Command Line Interface](https://flask.palletsprojects.com/en/2.2.x/cli/)
+## [Django Command Line Interface](https://docs.djangoproject.com/en)
 
 ```shell
 python -m django --version
+python manage.py runserver 0.0.0.0:8000
 ```
