@@ -96,5 +96,5 @@ engine = create_engine("mysql+pymysql://scott:tiger@localhost/foo")
 
 ```shell
 python -m django --version
-python manage.py runserver 0.0.0.0:8000
+python manage.py runserver 0.0.0.0:8000 --noreload
 ```
